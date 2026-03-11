@@ -1,12 +1,12 @@
 from setuptools import setup
 
 setup(
-    name="my_project",
+    name="atlas",
     version="0.1.0",
-    packages=["my_project"],
+    packages=["atlas"],
     entry_points={
         "console_scripts": [
-            "atlas = atlas.__main__:main"
+            "atlas = atlas.__main__:main",
         ]
     },
 )
